@@ -5,17 +5,22 @@
 }
 header{
     
-    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("bedc0917d36a0b5192fa8e02cdd726f0.jpg");
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("RC Diamond/SHOES/s14.png");
     height: 100vh;
+    background-repeat: no-repeat;
     /*-webkit-background-composite:initial;*/
     background-size: cover;
     background-position: center;
     position: relative;
+   
 }
 ul{
     float: right;
     list-style-type: none;
     margin-top: 25px;
+    position: fixed;
+    background:gray;
+    right: 10px;
 }
 
 ul li{
@@ -44,10 +49,13 @@ ul li.active a{
     height: 45px;
     margin-left: 15px;
     margin-top: 15px;
+    
 }
 .main{
     max-width: 1300px;
     margin: auto;
+    position: fixed;
+    
 }
 .title{
     position: absolute;
@@ -76,3 +84,106 @@ ul li.active a{
     background-color: bisque;
     color:brown;
 }
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.col-4 img{
+    width: 33.33%;
+
+}
+h4{
+    margin-left: 10%;
+}
+.price{
+    position: absolute;
+    background: black;
+    color: blanchedalmond;
+}
+/*------------------------------header section-------------------------------*/
+
+#Featured h2 {
+    font-size: 4em;
+    font-family: Verdana, Geneva, sans-serif;
+    /*margin-left: 20px;*/
+    text-align: center;
+}
+section{
+    margin: 0;
+
+}
+
+.d1{
+    margin: auto;
+    
+    
+}
+
+#s1 {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    max-height: 520px;
+    margin: 4em;
+    text-align: center;
+    font-family: arial;
+    float: left;
+  }
+  #s1 img{
+      width: 100%;
+      height: 100%;
+    position: relative;
+    z-index: -1;
+  }
+  
+  .price2 {
+    display:inline-flex;
+    flex-direction: column;
+    color: grey;
+    font-size: 19px;
+    margin: auto;
+    
+  }
+  
+  #s1 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  #s1 button:hover {
+    opacity: 0.7;
+  }
+  h2{
+    
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+
+  }
+  p{
+    
+        display: block;
+        margin-block-start: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+
+  }
+  .p2{
+      display: inline-flex;
+      flex-direction: row;
+      padding: 15em;
+      margin: 10em;
+  }
+   
