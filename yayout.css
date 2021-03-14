@@ -4,7 +4,7 @@
     font-family: Century Gothic;
 }
 header{
-    
+    display: flex;
     background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("RC Diamond/SHOES/s14.png");
     height: 100vh;
     background-repeat: no-repeat;
@@ -112,24 +112,24 @@ h4{
 }
 section{
     margin: 0;
-
 }
-
 .d1{
-    margin: auto;
-    
-    
+    margin: auto;   
 }
 
 #s1 {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    max-height: 520px;
+    max-height: 550px;
     margin: 4em;
     text-align: center;
     font-family: arial;
     float: left;
   }
+  #s1:hover{
+      display: block;
+  }
+  
   #s1 img{
       width: 100%;
       height: 100%;
@@ -161,10 +161,10 @@ section{
   #s1 button:hover {
     opacity: 0.7;
   }
-  h2{
+  h3{
     
         display: block;
-        font-size: 2em;
+        font-size: 1.5em;
         margin-block-start: 0.67em;
         margin-block-end: 0.67em;
         margin-inline-start: 0px;
