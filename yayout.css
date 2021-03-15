@@ -114,17 +114,28 @@ section{
     margin: 0;
 }
 .d1{
-    margin: auto;   
+    margin: auto;  
+    justify-content: center;
+/*display: grid;*/
+/*grid-template-columns: repeat(auto-fit, 25rem); 
+grid-auto-rows:550px;
+grid-gap: 40px;
+grid-row-gap: 20px;
+height: 100vh;*/
+
 }
 
 #s1 {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    max-height: 550px;
+    max-height: 500px;
     margin: 4em;
     text-align: center;
     font-family: arial;
     float: left;
+    align-items: center;
+    /*padding: 50px;*/
+
   }
   #s1:hover{
       display: block;
