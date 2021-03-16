@@ -7,7 +7,7 @@ header{
     
     /*grid-template-columns: auto;
     grid-template-rows: auto;*/
-    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("RC Diamond/SHOES/s14.png");
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("perfWall.png");
     height: 100vh;
     background-repeat: no-repeat;
     /*-webkit-background-composite:initial;*/
@@ -73,7 +73,7 @@ ul li.active a{
     color: bisque;
     font-size: 70px;
 }
-.button{
+.but{
     position: absolute;
     top: 63%;
     left: 50%;
@@ -120,9 +120,6 @@ section{
     margin: 0;
 }
 .d1{
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
     margin: auto;
     display: grid;
 	grid-template-columns: repeat(auto-fit,26rem);
@@ -131,42 +128,16 @@ section{
 	grid-gap: 30px;
     height: 200vh;
 	padding-right: 0;   
-=======
->>>>>>> Stashed changes
-    margin: auto;  
-    justify-content: center;
-/*display: grid;*/
-/*grid-template-columns: repeat(auto-fit, 25rem); 
-grid-auto-rows:550px;
-grid-gap: 40px;
-grid-row-gap: 20px;
-height: 100vh;*/
-
-<<<<<<< Updated upstream
-=======
->>>>>>> 32575d0d507af99fc3340c4a0ebb83de65ac6302
->>>>>>> Stashed changes
 }
 
 #s1 {
     box-shadow: 4px 21px 8px 5px #aaabad;
     max-width: 300px;
-<<<<<<< Updated upstream
-    max-height: 500px;
-=======
-<<<<<<< HEAD
     max-height: 580px;
-=======
-    max-height: 500px;
->>>>>>> 32575d0d507af99fc3340c4a0ebb83de65ac6302
->>>>>>> Stashed changes
     margin: 4em;
     text-align: center;
     font-family: arial;
     float: left;
-    align-items: center;
-    /*padding: 50px;*/
-
   }
   #s1:hover{
       transform: scale(1.1);
@@ -235,6 +206,7 @@ height: 100vh;*/
     }
 }
 
+/*-------------------------------footer section-----------------------*/
 footer{
     color: #d9d9d9;
     background-color: #111;
