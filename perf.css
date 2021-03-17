@@ -7,7 +7,7 @@ header{
     
     /*grid-template-columns: auto;
     grid-template-rows: auto;*/
-    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("perfWall.png");
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("https://images.unsplash.com/photo-1557827983-012eb6ea8dc1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
     height: 100vh;
     background-repeat: no-repeat;
     /*-webkit-background-composite:initial;*/
@@ -210,15 +210,18 @@ section{
 footer{
     color: #d9d9d9;
     background-color: #111;
-    position: relative;
+    position:relative;
     top: 900px;
     bottom: 10px;
     width: 100%;
+    display: flex;
+    
   
 
 }
 .main-content{
     display: flex;
+    /*flex-wrap: wrap;*/
 
 }
 .main-content .box{
