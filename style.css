@@ -220,7 +220,7 @@
 	width: 350px;
 	align-content: center;
 }
-#ecommerce{
+/*#ecommerce{
 	color: white;
 	display: grid;
 	grid-template-columns: repeat(auto-fit,25rem);
@@ -228,7 +228,7 @@
 			justify-content: center;
 			grid-gap: 50px;
 			height: 150vh;
-			padding-right: 0;
+			padding-right: 0;*/
 
 		}
 		#individual{
@@ -263,6 +263,36 @@
 			text-align: center;
 			padding-top: 20px;
 		}
+		.e1{
+			display: grid;
+			grid-template-columns: repeat(auto-fit,40rem);
+			justify-content: center;
+			grid-template-rows:300px;
+			height: 100vh;
+			margin: 0;
+			grid-gap: 30px;
+			 
+		}
+		.s1{
+			background-image:url("https://image.freepik.com/free-vector/oil-perfume-bottle-with-gold-liquid_107791-674.jpg");
+			background-size: cover;
+			height: auto;
+		}
+		.s2{
+			background-image:url("https://www.qbuzz.qnet.net/wp-content/uploads/2018/10/bernhard-h-mayer-manchester-city-watch-champion-series.jpeg");
+			background-size: cover;
+			height: auto;
+		}
+		.s3{
+			background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi3SLlGUcGPkF04TaJF5fMZTfdxSQ3pf_zgA&usqp=CAU");
+			background-size: cover;
+			height: auto;
+		}
+		.s4{
+			background-image:url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c23a9492498683.5e4cdc86ed891.png");
+			background-size: cover;
+			height: auto;
+		}
 		/*.container{
   color:white;
   font-size:20px;
@@ -296,4 +326,4 @@
 
 
 	
->>>>>>> 3b9f0f22c0d290495c90a2ed6e30725d74b16f41
+
