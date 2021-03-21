@@ -136,7 +136,7 @@ section{
     grid-gap: 30px;
     height: 100vh;
     padding-right: 0;   
->>>>>>> Stashed changes
+
 }
 
 #s1 {
@@ -222,15 +222,15 @@ footer{
     position:relative;
     /*top: 900px;
     bottom: 10px;*/
-    width: 100%;
+   /* width: 100%;
     display: flex;
-    
+    */
   
 
 }
 .main-content{
     display: flex;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
 
 }
 .main-content .box{
@@ -276,4 +276,4 @@ footer{
 
 .left .content .social a span:hover{
     background: #f12020;
-}
+}*/
