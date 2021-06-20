@@ -122,20 +122,14 @@ section{
 .d1{
     margin: auto;
     display: grid;
-<<<<<<< Updated upstream
 	grid-template-columns: repeat(auto-fit,26rem);
 	grid-template-rows: 1fr 1fr 1fr;
 	justify-content: center;
 	grid-gap: 30px;
     height: 200vh;
 	padding-right: 0;   
-=======
-    grid-template-columns: repeat(auto-fit,26rem);
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: center;
-    grid-gap: 30px;
-    height: 100vh;
-    padding-right: 0;   
+
+     
 
 }
 
@@ -276,4 +270,4 @@ footer{
 
 .left .content .social a span:hover{
     background: #f12020;
-}*/
+}
